@@ -6,7 +6,9 @@
     Don't repeat yourself !
     ne vous répétez pas !
 
-    Lorsque vous créez des sélecteurs, faites attention à ne pas y entasser trop de règles. Séparer les sélecteurs par leur fonction vous aidera à garder votre code compréhensible et maintenable.
+    Lorsque vous créez des sélecteurs, faites attention à ne pas y entasser trop de règles. 
+    
+    Séparer les sélecteurs par leur fonction vous aidera à garder votre code compréhensible et maintenable.
 
     La spécificité permet de mesurer le poids d’un sélecteur au sein du HTML parmi les autres.
 
@@ -22,6 +24,7 @@
 
     Votre navigateur applique les éléments les plus spécifiques en premier.
 ![Ordre des spécififités](specificitéOrdre.png)
+
 ![spécificité](./specificite.png)
 
     Le CSS n’a pas de structure rigide, ce qui complique la tâche pour avoir une codebase propre et maintenable.
