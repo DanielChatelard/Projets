@@ -1,4 +1,4 @@
-# Sructurez Votre CSS
+# Structurez Votre CSS
 
 [Sommaire](./00-Sommaire.md)
 
@@ -23,6 +23,7 @@
         les éléments et pseudoéléments.
 
     Votre navigateur applique les éléments les plus spécifiques en premier.
+
 ![Ordre des spécififités](specificitéOrdre.png)
 
 ![spécificité](./specificite.png)

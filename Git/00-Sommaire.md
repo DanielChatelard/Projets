@@ -1,4 +1,4 @@
-# Sommaire
+# Sommaire Git
 
 [1) Les système de gestion de versions](./01-systeme-version.md)
 
