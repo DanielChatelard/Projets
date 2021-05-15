@@ -1,5 +1,7 @@
 # Sommaire HTML
 
+[Retour](../README.md)
+
 [1) Internet](./01-internet.md)
 
 [2) Découverte du Web](./02-decouverteDuWeb.md)
