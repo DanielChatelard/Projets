@@ -1,6 +1,6 @@
 # Sommaire Github
 
-[Retour](../README.md)
+[Retour](../../README.md)
 
 [1) Débuter sur Github](./01-debuterSurGithub.md)
 

@@ -1,6 +1,6 @@
 # Sommaire HTML
 
-[Retour](../README.md)
+[Retour](../../README.md)
 
 [1) Internet](./01-internet.md)
 
