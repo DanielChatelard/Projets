@@ -28,4 +28,18 @@
 
 [13) Pseudo-classes](./013-Les-Pseudo-classes.md)
 
+[14) Pseudo-éléments](./014-Les-Pseudo-éléments.md)
+
+[15) Positions](./015-Positions.md)
+
+[16) Float](./016-Float.md)
+
+[17) Grid](./017-Grid.md)
+
+[18) Flexbox](./018-Flexbox.md)
+
+[19) Z-index](./019-Z-index.md)
+
+[20) Récapitulatif des propriétés CSS](./020-Récapitulatif-des-propriétés-CSS.md)
+
 [0) Mettre en place le CSS](./01-mettre-en-place-le-css.md)
