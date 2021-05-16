@@ -6,4 +6,14 @@
 
 [2) Appliquer du style aux éléments](./002-Appliquer-du-style-aux-éléments.md)
 
+[3) Appliquer du style aux class](./003-Appliquer-du-style-aux-class.md)
+
+[4) Les unités en CSS](./004-Les-unités-css.md)
+
+[5) L'espacements en CSS](./005-Les-espacements.md)
+
+[6) L'alignement en CSS](./006-Alignement-des-elements.md)
+
+[7) Les polices de caractères](./007-Les-polices-de-caracteres.md)
+
 [0) Mettre en place le CSS](./01-mettre-en-place-le-css.md)
