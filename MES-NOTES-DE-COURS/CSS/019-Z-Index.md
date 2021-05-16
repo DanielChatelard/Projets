@@ -1,2 +1,3 @@
-<span style="color:#26f260;">**19. Z-index.**</span><br>
-[Retour au sommaire](1-Sommaire.md)<br>
+# <span style="color:#26f260;">**Z-index.**</span>
+
+[Sommaire](./00-Sommaire.md)

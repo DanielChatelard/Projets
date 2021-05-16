@@ -1,2 +1,3 @@
-<span style="color:#26f260;">**18. Flexbox.**</span><br>
-[Retour au sommaire](1-Sommaire.md)<br>
+# <span style="color:#26f260;">**Flexbox.**</span>
+
+[Sommaire](./00-Sommaire.md)

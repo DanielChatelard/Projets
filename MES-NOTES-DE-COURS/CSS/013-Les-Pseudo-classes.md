@@ -5,7 +5,7 @@
 
 Une pseudo-classe est une classe permettant de sélectionner un élément quand il est dans un état particulier.
 
-<span style="color:#26f260;">: active</span>. sélectionne l'élément lorsqu'il est activé, notamment par le clic utilisateur.
+<span style="color:#26f260;">: active</span>, sélectionne l'élément lorsqu'il est activé, notamment par le clic utilisateur.
 
 ```css
     a:active {
