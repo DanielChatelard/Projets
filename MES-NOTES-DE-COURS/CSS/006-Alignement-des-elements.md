@@ -1,21 +1,26 @@
-<span style="color:#26f260;">**6. L'alignement en CSS.**</span><br>
-[Retour au sommaire](1-Sommaire.md)<br>
+# <span style="color:#26f260;">**L'alignement en CSS.**</span>
 
-<span style="color:#70F3EF;">text-align </span>, définit l'alignement horizontal du texte ou du contenu dans un bloc. Il existe plusieurs valeurs possibles pour cette propriété : left, right, center, justify.<br>
-````css
+[Sommaire](./00-Sommaire.md)
+
+<span style="color:#70F3EF;">text-align </span>, définit l'alignement horizontal du texte ou du contenu dans un bloc. Il existe plusieurs valeurs possibles pour cette propriété : left, right, center, justify.
+
+```css
     div {
     text-align: justify;
     }   
-````
+```
 
 <span style="color:#70F3EF;">vertical-align </span>, définit l'alignement vertical du texte ou du contenu dans une ligne ou dans une cellule d'un tableau.
-````css
+
+```css
     div {
     vertical-align: center;
     }   
-````
-Simuler des tableaux avec les propriétés display : table et table-cell.<br>
-````css
+```
+
+Simuler des tableaux avec les propriétés display : table et table-cell.
+
+```css
     .conteneur {
     display: table;
     height: 200px;
@@ -31,4 +36,4 @@ Simuler des tableaux avec les propriétés display : table et table-cell.<br>
     display: table-cell;
     vertical-align: top;
     } 
-````
+```

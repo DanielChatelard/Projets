@@ -1,18 +1,20 @@
 
-<span style="color:#26f260;">**3. Appliquer du style aux class.**</span><br>
-[Retour au sommaire](1-Sommaire.md)<br>
+# <span style="color:#26f260;">**Appliquer du style aux class.**</span>
+
+[Sommaire](./00-Sommaire.md)
 
 Pour associer un style à une classe, on utilise le nom de la classe précédé d'un point.
-````css
+
+```css
     .maclasse {
         color: green;
     }
-````
+```
 
 Il est possible de cibler élément avec <span style="color:#70F3EF;"># et un identifiant</span> (attribut <span style="color:lightgreen;">id=" "</span>), cet identifiant est unique par page.
 
-````css
+```css
     #identifiant {
         color: green;
     }
-````
+```
