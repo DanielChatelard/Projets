@@ -1,5 +1,5 @@
 
-# <div style="color: #26B260">**1. Introduction à Bootstrap**</div>
+# <div style="color: #26B260">**Introduction à Bootstrap**</div>
 
 [Sommaire](./00-Sommaire.md)
 
