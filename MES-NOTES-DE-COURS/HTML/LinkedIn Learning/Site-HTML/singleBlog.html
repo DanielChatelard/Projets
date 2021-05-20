@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Le monde en noir &amp; blanc</title>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/nb.css">
+    </head>
+    <body>
+        <!-- En-tête -->
+        <header id="mainHeader">
+            <img src="images/image-html5.jpg" alt="logo html5" id="logoImg">
+            <h1>Le monde en noir &amp; blanc</h1>
+            <nav id="mainNav">
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="galeries.html">Galeries</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                    <li><a href="about.html">A propos</a></li>
+                    <li><a href="singleBlog.html">Blog</a></li>
+                </ul>
+            </nav>
+            <button id="menuToggle"><img src="#" alt="Ouvrir / Fermer le menu"></button> 
+        </header><!-- Ici se termine le le mainHeader -->
+        <!-- Corps -->
+        <section id="pageContent">
+            <main id="leftCol">
+                <h1 id="pageTop">Titre de niveau1</h1>
+                <!--caractère spéciaux entre & et ; liste sur le w3schools.com-->
+                <p>&#9742;</p><p>&copy;</p>
+                <p>&#9743;</p><p>5 &lt; 7</p>
+                <p>&#9749;</p><p>7 &gt; 5</p>
+                <p>7 &amp; 5</p><p>espace &nbsp;&nbsp;&nbsp;insécable</p>
+                
+                <p>Lorem ipsum dolor sit amet, <strong>consectetur</strong> adipisicing elit. Praesentium necessitatibus omnis tenetur hic iste, veritatis maiores laudantium! Optio, <a href="http://www.didaxo.be" target="_blank">didaxo</a> delectus! Praesentium <em>soluta iusto</em> veritatis modi accusantium deserunt fugit hic ad id rem? Enim necessitatibus incidunt natus, voluptatem facilis perspiciatis qui?</p>
+                <ol>
+                    <li><a href="#ch1">Item1</a></li>
+                    <li><a href="#ch2">Item2</a></li>
+                    <li><a href="images/image-html5.jpg">Télécharger un fichier zip</a></li>
+                    <li><a href="images/beach.webp" target="_blank" download="monDocument.pdf">Document.pdf</a></li>
+                </ol>
+                <h2 id="ch1">titre de niveau2 id ch1</h2>
+                <p><img src="images/beach.webp" alt="beach" />ipsum dolor sit amet, consectetur adipisicing elit. Praesentium necessitatibus omnis tenetur hic iste, veritatis maiores laudantium! Optio, consequuntur delectus! Praesentium soluta iusto veritatis modi accusantium deserunt fugit hic ad id rem? Enim necessitatibus incidunt natus, voluptatem facilis perspiciatis qui?</p>
+                <dl>
+                    <dt>Terme 1</dt>
+                    <dd>description1 data</dd>
+                    <dt>Terme 2</dt>
+                    <dd>description2 data</dd>
+                </dl>
+                <h3 id="ch2">Titre de niveau3</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium necessitatibus omnis tenetur hic iste, veritatis maiores laudantium! Optio, consequuntur delectus! Praesentium soluta iusto veritatis modi accusantium deserunt fugit hic ad id rem? Enim necessitatibus incidunt natus, voluptatem facilis perspiciatis qui?</p>
+                <h4>Titre de niveau4</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium necessitatibus omnis tenetur hic iste, veritatis maiores laudantium! Optio, consequuntur delectus! Praesentium soluta iusto veritatis modi accusantium deserunt fugit hic ad id rem? Enim necessitatibus incidunt natus, voluptatem facilis perspiciatis qui?</p>
+                <h5>Titre de niveau5</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium necessitatibus omnis tenetur hic iste, veritatis maiores laudantium! Optio, consequuntur delectus! Praesentium soluta iusto veritatis modi accusantium deserunt fugit hic ad id rem? Enim necessitatibus incidunt natus, voluptatem facilis perspiciatis qui?</p>
+                <h6>Titre de niveau6</h6>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut tempore maiores odio? Atque natus cupiditate, odit quasi nulla, et quidem, veritatis quod cumque dolores dignissimos nam deleniti perspiciatis! Accusamus, libero.</p>
+                <p><a href="#pageTop">Retour en haut de la page</a></p>
+            </main><!-- Ici se termine le leftCol -->
+            <aside id="rightCol">
+                <section id="blogSearch">
+                    <h1><label  for="search">Rechercher</label></h1>
+                    <input type="search" name="search" id="search">
+                </section>
+                <section id="categories">
+                    <h1>Catégories</h1>
+                    <ul>
+                       <li><a href="#">Matériel<span>11</span></a></li>
+                       <li><a href="#">Lightroom<span>2</span></a></li>
+                       <li><a href="#">Techniques<span>4</span></a></li>
+                       <li><a href="#">Voyages<span>15</span></a></li>
+                    </ul>
+                </section>
+                <section id="blogArchives">
+                    <h1>Archives</h1>
+                    <div>
+                        <h2><a href="#">2018</a><span>21</span></h2>
+                        <ul>
+                            <li><a href="#">Janvier 2018 <span>2</span></a></li>
+                            <li><a href="#">Fevrier 2018 <span>4</span></a></li>
+                            <li><a href="#">Avril 2018 <span>3</span></a></li>
+                            <li><a href="#">Mai 2018 <span>3</span></a></li>
+                            <li><a href="#">Juin 2018 <span>4</span></a></li>
+                            <li><a href="#">Septembre 2018 <span>3</span></a></li>
+                            <li><a href="#">Décembre 2018 <span>2</span></a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h2><a href="#">2019</a><span>11</span></h2>
+                        <ul>
+                            <li><a href="#">Janvier 2019 <span>3</span></a></li>
+                            <li><a href="#">Fevrier 2019 <span>1</span></a></li>
+                            <li><a href="#">Mars 2019 <span>2</span></a></li>
+                            <li><a href="#">Mai 2019 <span>4</span></a></li>
+                            <li><a href="#">Septembre 2019 <span>1</span></a></li>
+                        </ul>
+                    </div>
+                </section>
+            </aside><!-- Ici se termine le rightCol -->
+        </section><!-- Ici se termine le pageContent -->
+        <!-- Pied de page-->
+        <footer id="mainFooter">
+            <P>&copy; Copyright Daniel Chatelard - 2021</P>
+        </footer><!-- Ici se termine le mainFooter -->
+    </body>
+</html>
