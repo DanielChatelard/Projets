@@ -6,7 +6,7 @@
 
 <span style="color: yellow">*node_modules*</span>, qui détient toutes les dépendances de notre projet
 
-<span style="color: yellow">*angular.json*</span>, c'est un fichier qui contient les informations sur notre projet, les tyles, les scripts, les configurations, etc.
+<span style="color: yellow">*angular.json*</span>, c'est un fichier qui contient les informations sur notre projet, les styles, les scripts, les configurations, etc.
 
 <span style="color: yellow">*package.json*</span>, on peut voir les dépendances, les types de script que l'on peut appeler(ng, start, build, test, lint, e2e)
 
@@ -22,23 +22,23 @@ le dossier style.scss, contient tout les style de notre application.
 
 ![img_13.png](images/img_13.png)
 
-ils corespondent à un composant.(html pour la page, scss pour le style, spec pour les tests, ts pour typescript).
+ils correspondent à un composant.(html pour la page, scss pour le style, spec pour les tests, ts pour typescript).
 app.module.ts et app.routing.modules.ts
 
 ![img_14.png](images/img_14.png)
 
-### <span style="color: #26B260">**Installer bootstrap**</span>
+<span style="color: yellow">*app.component.ts*</span>, ce fichier contient
 
-Tapez npm install bootstrap, dans le terminal.
+```javascript
+import { Component } from '@angular/core';
 
-![img_15.png](images/img_15.png)
+@Component({
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.scss']
+})
+export class AppComponent {
+  title = 'mon-projet-angular-ocr';
+}
 
-Maintenant bootstrap est bien dans mes dépendances.
-
-![img_16.png](images/img_16.png)
-
-et aussi dans le dossier node_modules.
-
-Ajoutez bootstrap dans le fichier angular.json, puis dans "styles"
-
-![img_17.png](images/img_17.png)
+```
