@@ -31,3 +31,7 @@
 [14) Directive par attribut ngClass](./14-ngClass.md)
 
 [15) Pipes](./15-pipe.md)
+
+[16) Les Services](./16-LesServices.md)
+
+[17) Le Routing](./17-routing.md)
