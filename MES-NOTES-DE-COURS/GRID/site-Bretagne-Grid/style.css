@@ -1,14 +1,19 @@
-/* Neutralisé les marges par défaut du navigateur */
+/* import de la police courgette */
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 
+
+/* Neutralisé les marges par défaut du navigateur */
 body {
     margin: 0;
     padding: 0;
+    font-family: Arial;/* police pour tout le body */
 }
 
 /* Mise en place de la grille en ciblant la class site*/
 .site {
     display: grid;
     grid-template-columns: 1fr 4fr;
+    grid-template-rows: 65px;/* hauteur de ligne */
     grid-template-areas: 
         "header header"
         "nav section"
@@ -18,18 +23,60 @@ body {
 
 /* mise de couleurs pour repérer les éléments */
 header {
-    background-color: #6cf;
+    background-color: #86c8fc;
     grid-area: header;
+    background-image: url(media/img-header.png);/* image de fond*/
+    background-repeat: no-repeat;/* évite de répéter l'image */
+    display: flex;/* tout les contenus sera alignés sur l'axe horizontale */
+    flex-direction: row-reverse;/* positionner le logo à droite*/
+    border-bottom: 1px solid #000;/* Ajout d'une bordure noir au dessous */
 }
+
+header div {
+    width: 30%;/* alignement du logo à 30% de la droite*/ 
+    display: flex; /* alignement sur l'axe principale */
+    align-items: center;/* centrer le texte Gîte nature*/
+    font-family: 'Courgette', cursive;/* Police importé de google-Fonts*/
+    font-size: 20px;
+    color: #060;
+}
+
 section {
-    background-color: #0c0;
+    background-color: #060;
     grid-area: section;
+    text-align: center;
+    font-family: 'Courgette', cursive;/* Police importé de google-Fonts*/
+    font-size: 35px;
+    color: #f2f2f2;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 nav {
     background-color: #000;
     color: #fff;
     grid-area: nav;
 }
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;/* centrer les liens*/
+}
+
+nav ul li {
+    list-style: none;/* Enlève les puces de la liste */
+    padding: 20px;
+}
+
+nav ul li a {
+    color: #ff0;
+    text-decoration: none;/* Enlève le soulignement */
+    font-size: 20px;
+    font-weight: bold;/* mets en gras */
+}
+
 article {
     background-color: #eee;
     grid-area: article;
@@ -51,6 +98,17 @@ footer {
         "article"
         "footer";
 }
+
+header {
+    background-image: none;/* pas d'image de fond */    
+}
+
+header div {
+    width: 100%;/* alignement du logo à 30% de la droite*/ 
+    display: flex; /* alignement sur l'axe principale */
+    justify-content: center;/* centrer le contenu */
+}
+
 section {
     display: none; /* pour ne pas afficher la section */ 
 }
