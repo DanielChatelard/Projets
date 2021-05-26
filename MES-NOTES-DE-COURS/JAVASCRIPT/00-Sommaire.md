@@ -37,3 +37,7 @@
 [17) Manipuler le dom](./017-Manipuler-le-dom.md)
 
 [18) Function arrow](./018-Function-arrow.md)
+
+[19) Exercice 1](./019-Exercice1.md)
+
+[20) Exercice 2](./020-Exercice2.md)

@@ -3,7 +3,7 @@
 [Sommaire](./00-Sommaire.md)
 
 ## <div style="color: #26B260">*Intégrer les routes dans 'app.module.ts'*</div>
- 
+
 ```javascript
 // fichier app.modules.ts, créer les routes.
 import { Routes } from '@angular/router';
