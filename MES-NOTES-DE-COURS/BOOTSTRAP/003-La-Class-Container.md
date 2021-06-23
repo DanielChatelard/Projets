@@ -6,10 +6,14 @@
 La classe <span style="color: yellow">*container*</span>, englobe la totalité de la grille et contient des lignes <span style="color: yellow">*row*</span>, qui contiennent des colonnes <span style="color: yellow">*col*</span>.
 
 ```html
+    <!--Création du container qui englobera la grille-->
     <div class="container">
-    <div class="row"><!--Première ligne-->
-        <div class="col"></div><!--Première colonne de la première ligne-->
-        <div class="col"></div><!--Deuxième colonne de la première ligne-->
+    <!--Création de la première ligne-->
+    <div class="row">
+        <!--Création de la première colonne dans la première ligne-->
+        <div class="col"></div>
+        <!--Création de la Deuxième colonne dans la première ligne-->
+        <div class="col"></div>
     </div>
 ```
 
