@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    height: 400px;
+    justify-content: space-evenly;/* les espaces entre chaques éléments seront égaux */
+    align-items: center;/* alignement centrer sur l'axe secondaire */
+    flex-wrap: wrap;/* met à la ligne s'il n'y a pas assez de place dans le conteneur*/
+    border: 1px solid lightblue;
+    padding: 1rem;
+    background: #f4f2f0; 
+}
+
+.item {
+    box-sizing: border-box;
+    border: 1px solid #7c4a96;
+    padding: 1rem;
+    color: #7c4a96;
+    background: #dcdcdc;
+}

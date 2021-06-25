@@ -1,0 +1,167 @@
+/* couleur de fond du body */
+body {
+    background-color: whitesmoke;
+}
+
+/* -------------------- Bar de navigation -------------------- */
+.nav ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.nav li {
+    float: left;
+}
+
+.nav li a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;/* Enlève le soulignement des liens */ 
+    color: #fff;
+}
+
+.nav li a:hover {
+    background-color: rgb(6, 1, 15);
+}
+
+.active {
+    background-color: rgb(158, 21, 21);
+}
+
+.nav {
+    position: sticky;
+    top: 0;
+}
+
+/* -------------------- Fin Bar de navigation -------------------- */
+
+/* -------------------- Table -------------------- */
+
+.table {
+    width: 80%;
+    margin: auto;
+}
+
+.table table th {
+    background-color:brown;
+    color: #fff;
+    height: 50px;
+}
+
+.table table {
+    width: 100%;
+    border-collapse: collapse;/* supprime l'espace entre les th */
+}
+
+.table table td {
+    height: 30px;
+}
+
+.table table th, .table table td {
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.table table tr:hover {
+    background-color: lightblue;
+}
+
+/* -------------------- Fin Table -------------------- */
+
+/* -------------------- Footer Bottom -------------------- */
+
+.footer-bottom {
+    position: fixed;
+    bottom: 0;
+}
+/* -------------------- Fin Footer Bottom -------------------- */
+
+/* -------------------- Formulaire -------------------- */
+
+.formContainer {
+    width: 80%;
+    margin: auto;
+}
+
+.formContainer input, .formContainer textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin: 8px 0;
+    padding: 12px 20px;
+    border-radius: 5px;
+}
+
+.formContainer textarea {
+    resize: none;/* supprime le réglage de la taille de textearea*/
+}
+
+/* avec [type=sibmit], on cible précisément le bouton */
+.formContainer input[type=submit] {
+    background-color: rgb(136, 204, 136);
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;/* affiche un pointer lorsqu'on passe la souris dessus */
+}
+
+/* -------------------- Fin Formulaire -------------------- */
+
+/* ciblé la div avec la classe article */
+.article {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+}
+
+/* ciblé le paragraphe 'p', qui est dans la div avec la classe article*/
+.article p {
+    font-size: 16px;
+    text-align: justify;
+    margin: 2%;
+    padding-bottom: 2%;
+}
+
+/* ciblé la dic avec la classe footer */
+.footer {
+    height: 50px;
+    width: 100%;
+    text-align: center;/* centrer le copyright */
+    background-color: #333;
+}
+
+.footer p {
+    color: #fff;
+    padding: auto;
+}
+
+/* couleur du texte h2 */
+h2 {
+    color: red;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 2%;
+}
+/* Largeur de l'image sur la page*/
+img {
+    width: 100%;
+}
+/* centrer le titre h1*/ 
+h1 {
+    text-align: center;
+}
+
+/* -------------------- Responsive -------------------- */
+
+@media screen and (min-width: 1000px) {
+    .formContainer {
+        width: 50%;
+    }
+
+    .article {
+        width: 50%;
+    }
+}
+
+/* -------------------- Fin Responsive -------------------- */
