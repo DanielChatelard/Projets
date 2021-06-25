@@ -1,9 +1,9 @@
 
-# <span style="color: #26B260">**HTTP.**</span>
+# <span style="color: #26B260">**HTTP**</span>
 
 [Sommaire](./00-Sommaire.md)
 
-Veux dire Hypertext Transfert Protocol.C'est un protocole sans état, elle ne sauvegarde pas l'état de la connection http.
+HTTP, veux dire Hypertext Transfert Protocol. C'est un protocole sans état, elle ne sauvegarde pas l'état de la connection http.
 
 Utilisé pour communiquer entre le navigateur et le serveur web.
 
