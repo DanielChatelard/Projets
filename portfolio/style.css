@@ -3,25 +3,60 @@ body {
     padding: 0;
 }
 
-h1 {
-    text-align: center;
+/* ---------- Nav ---------- */
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background-color: rgb(169, 226, 226);
 }
 
+nav h1 {
+    font-size: 30px;
+}
+
+nav .onglets {
+    margin-top: 35px;
+}
+
+nav .onglets a {
+    text-decoration: none;
+    color: #7f7e7e;
+    margin-right: 10px;
+}
+/* ---------- Fin Nav ---------- */
+
+
+/* ---------- Container ---------- */
 .container {
     display: flex;
-    height: 400px;
+    width: 90%;
     justify-content: space-evenly;/* les espaces entre chaques éléments seront égaux */
     align-items: center;/* alignement centrer sur l'axe secondaire */
     flex-wrap: wrap;/* met à la ligne s'il n'y a pas assez de place dans le conteneur*/
     border: 1px solid lightblue;
     padding: 1rem;
-    background: #f4f2f0; 
+    margin: 20px auto;
+    border: none;
+}
+/* ---------- Container ---------- */
+
+/* ---------- Section ---------- */
+section {
+    text-align: center;
+    padding: 5px;
+    background: #10b8ce8f; 
 }
 
 .item {
+    width: 200px;
     box-sizing: border-box;
     border: 1px solid #7c4a96;
-    padding: 1rem;
+    padding: 2rem;
+    margin-bottom: 25px;
     color: #7c4a96;
     background: #dcdcdc;
 }
+/* ---------- Fin Section ---------- */
