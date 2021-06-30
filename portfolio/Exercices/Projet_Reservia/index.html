@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/59aa840cf4.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="style.css">
+        <title>Reservia</title>
+    </head>
+    <body>
+        <nav class="sizeNav">
+            <div class="flexBetween">
+                <div><img class="marglogo" src="#" alt="Logo" width="120px" height="50px"></div>
+                <div class="sizeLiens flexAround">
+                    <div class="sizeLien flexCentre bordureNav">
+                        <a href="#" class="colorBleu decorationNone">Hébergement</a>
+                    </div>
+                    <div class="sizeLien flexCentre bordureNav23">
+                        <a href="#" class="colorLien2 decorationNone">Activités</a>
+                    </div>
+                    <div class="sizeLien flexCentre bordureNav23">
+                        <a href="#" class="colorBleu decorationNone">S'inscrire</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- Barre de recherche -->
+        <header>
+            <section>
+                <div>
+                    <h1>Trouvez votre hébergement pour vos vacances de rêves</h1>
+                    <p>En plein centre ville ou en plein nature</p>
+                </div>
+                <div class="bordureSearch flexCentre">
+                    <div class="backGris flexCentre iconSize"><i class="fas fa-map-marker-alt"></i></div>
+                    <div><input 
+                        class="recherche flexCentre bordureNone paddingSearch" 
+                        type="search" 
+                        value="Marseille, France"></div>
+                    <div class="backBleu flexCentre buttonSearch">Rechercher</div>
+                </div>
+                <!-- Filtre -->
+                <div class="filtre margFiltre">
+                    <div class="margFiltreTitre">
+                        <h3>Filtre</h3>
+                    </div>
+                    <div class="flexBetween filtreTexteIcons">
+                        <i class="fas fa-money-bill-wave fa-lg filtreIcons flexCentre"></i>
+                        <div class="filtreTexte flexCentre">Economiques</div>
+                    </div>
+                    <div class="flexBetween filtreTexteIcons">
+                        <i class="fas fa-child fa-lg filtreIcons flexCentre"></i>
+                        <div class="filtreTexte flexCentre">Familiales</div>
+                    </div>
+                    <div class="flexBetween filtreTexteIcons">
+                        <i class="fas fa-heart fa-lg filtreIcons flexCentre"></i>
+                        <div class="filtreTexte flexCentre">Romantiques</div>
+                    </div>
+                    <div class="flexBetween filtreTexteIcons">
+                        <i class="fas fa-dog fa-lg filtreIcons flexCentre"></i>
+                        <div class="filtreTexte flexCentre">Animaux autorisés</div>
+                    </div>
+                </div>
+                <!-- Fin Filtre -->
+
+                <!-- Icon infos -->
+
+                <div class="info">
+                    <div class="parentIcon flexCentre">
+                        <i class="fas fa-info fa-xs colorBleu"></i>
+                    </div>
+                    <p>Plus de 500 logements sont disponibles dans cette ville</p>
+                </div>
+                <!-- Fin Icon infos -->
+            </section>
+        </header>
+        <!-- Fin Barre de recherche -->
+
+        <!-- Flexbox Hébergements-->
+        <section class="flexAround">
+            <div class="flexColumnAround sizeHebergements backGris blocHebergements">
+                <h3>Hébergements à Marseille</h3>
+                <div class="bloc1 flexBetween">
+                    <div class="cubeHebergements"><!---->
+                        <div class="imgHebergements1"></div>
+                        <div class="cubeDetailsHebergements flexColumnCentre">
+                            <h3>séjour</h3>
+                            <p>Nuit à partir de 25€</p>
+                            <div>étoile</div>
+                        </div>
+                    </div><!---->
+                    <div class="cubeHebergements"><!---->
+                        <div class="imgHebergements2"></div>
+                        <div class="cubeDetailsHebergements flexColumnCentre">
+                            <h3>chambre</h3>
+                            <p>Nuit à partir de 25€</p>
+                            <div>étoile</div>
+                        </div>
+                    </div><!---->
+                    <div class="cubeHebergements"><!---->
+                        <div class="imgHebergements3"></div>
+                        <div class="cubeDetailsHebergements flexColumnCentre">
+                            <h3>chambre</h3>
+                            <p>Nuit à partir de 25€</p>
+                            <div>étoile</div>
+                        </div>
+                    </div><!---->                    
+                </div>
+                <div class="bloc2 flexBetween">                    
+                    <div class="cubeHebergements"><!---->
+                        <div class="imgHebergements4"></div>
+                        <div class="cubeDetailsHebergements flexColumnCentre">
+                            <h3>hôtel</h3>
+                            <p>Nuit à partir de 25€</p>
+                            <div>étoile</div>
+                        </div>
+                    </div><!---->
+                    <div class="cubeHebergements"><!---->
+                        <div class="imgHebergements5"></div>
+                        <div class="cubeDetailsHebergements flexColumnCentre">
+                            <h3>chambre</h3>
+                            <p>Nuit à partir de 25€</p>
+                            <div>étoile</div>
+                        </div>
+                    </div><!---->
+                    <div class="cubeHebergements"><!---->
+                        <div class="imgHebergements6"></div>
+                        <div class="cubeDetailsHebergements flexColumnCentre">
+                            <h3>rivière</h3>
+                            <p>Nuit à partir de 25€</p>
+                            <div>étoile</div>
+                        </div>
+                    </div><!---->
+                </div>
+                <div></div>
+                <p class="texteGras">Afficher plus</p>
+                <!-- Fin Flexbox Hébergements -->                
+            </div>
+            <!-- Flexbox Aligner des cartes -->
+            <div class="sizePopulaires blocPopulaires backGris">
+                <div class="flexBetween">
+                    <h2 class="texteGras">Les plus populaires</h2>
+                    <div><i class="fas fa-chart-line fa-2x"></i></div>
+                </div>
+                <div class="flexColumnAround">                
+                    <div class="blocPopulaires12 cubePopulaires flexCentre">                    
+                        <div class="imgPopulaires1"></div>
+                        <div class="cubeDetailsPopulaires">
+                            <h3>Hotel du soleil du matin</h3>
+                            <p>à partir de 128€</p>
+                            <div></div>
+                        </div>
+                    </div>
+                    <div class="blocPopulaires12 cubePopulaires flexCentre">                    
+                        <div class="imgPopulaires2"></div>
+                        <div class="cubeDetailsPopulaires">
+                            <h3>Hotel du soleil du matin</h3>
+                            <p>à partir de 128€</p>
+                            <div></div>
+                        </div>
+                    </div>
+                    <div class="cubePopulaires flexCentre">                    
+                        <div class="imgPopulaires3"></div>
+                        <div class="cubeDetailsPopulaires">
+                            <h3>Hotel du soleil du matin</h3>
+                            <p>à partir de 128€</p>
+                            <div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Fin Aligner des cartes -->
+        </section>        
+    </body>
+</html>
+<!-- 8/14 à faire-->
