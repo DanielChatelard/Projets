@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    background-color: #2c3e50;
+    animation-name: colors;/* color est le nom que l'on donne */
+    animation-duration: 10s;/* temps de l'animation */
+    animation-timing-function: linear;/* animation à la même vitesse */
+    animation-delay: 0s;/* Pas délai avant de lancer l'animation */
+    animation-iteration-count: infinite;/* lance l'animation  l'infinie */
+}
+
+/* ----------- ciblé la classe sol ----------- */
+.sol {
+    background: #2ecc71;/* l'herbe en bas */
+    height: 600px;
+    width: 100%;
+    margin-top: 350px;
+    position: absolute;
+}
+/* ----------- Fin de la classe sol ----------- */
+
+/* ----------- ciblé la classe soleil ----------- */
+
+.soleil {
+    background: #f1c40f;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    animation-name: animSun;
+    animation-duration: 10s;
+    animation-timing-function: linear;/* animation à la même vitesse */
+    animation-delay: 0s;/* Pas délai avant de lancer l'animation */
+    animation-iteration-count: infinite;/* lance l'animation  l'infinie */
+}
+/* ----------- Fin de la classe soleil ----------- */
+
+/* ----------- Keyframes animSun ----------- */
+
+@keyframes animSun {
+    0% {
+        transform: translate(-200px, 300px);/* translate(axe 'x' moins '-' à gauche, plus '+' à droite, axe 'y' moins '-' en haut, plus '+' en bas) */
+        background: #d35400;
+    }
+    25% {
+        transform: translate(330px, 100px);
+        background: #f1c40f;
+    }
+    50% {
+        transform: translate(860px, -100px);
+    }
+    75% {
+        transform: translate(1390px, 100px);
+        background: #f1c40f;
+    }
+    100% {
+        transform: translate(1700px, 400px);
+        background: #e74c3c;
+    }
+}
+/* ----------- Fin Keyframes animSun ----------- */
+
+/* ----------- Keyframes colors ----------- */
+
+@keyframes colors {
+    0% {
+        background: #2c3e50;
+    }
+    10% {
+        background: pink;
+    }
+    30% {
+        background: #3498db;
+    }
+    70% {
+        background: #3498db;
+    }
+    90% {
+        background: pink;
+    }
+    100% {
+        background: #2c3e50;
+    }
+}
+
+
+/* ----------- Fin Keyframes colors ----------- */

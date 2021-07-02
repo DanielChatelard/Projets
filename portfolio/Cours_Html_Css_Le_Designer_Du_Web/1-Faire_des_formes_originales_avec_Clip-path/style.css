@@ -1,0 +1,47 @@
+/* Enlever le margin et le padding du body et du html avec le séléecteur universel '*' */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #777;
+    padding: 30px;
+}
+
+.header {
+    height: 95vh; /* vh, viewport height pour hauteur de l'écran */
+    background-image: linear-gradient(
+        to right bottom, rgba(212,106,106,0.5),
+        rgba(255,170,170,0.5)),
+        url(assets/schrecksee-2534484_1920.jpg);
+    background-size: cover;
+    background-position: top;
+    /* dessin du polygon sur l'image */
+    clip-path: polygon(0 0,100% 0,100% 85%, 0 100%);/* polygon(xy,xy,xy,xy) */
+}
+
+h1 {
+    font-size: 3rem;
+    letter-spacing: 1rem;
+    color: #fff;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+}
+
+h2 {
+    font-size: 1rem;
+    letter-spacing: 1rem;
+    color: #fff;
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+}

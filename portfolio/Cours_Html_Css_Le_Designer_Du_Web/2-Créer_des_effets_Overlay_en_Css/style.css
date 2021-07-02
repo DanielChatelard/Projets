@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body {
+    font-family: 'Lato';
+    text-align: center;
+}
+
+ .container {
+    width: 700px;
+    height: auto;
+    margin: auto;
+    margin-top: 70px;
+    position: relative;
+
+}
+
+/* ---------- fond opaque + texte au mileu ----------- */
+/* 
+img {
+ 
+  transition: .5s ease;
+
+}
+
+
+.overlay {
+  transition: .5s ease;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.text {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+  opacity: 0; 
+}
+
+
+.container:hover img {
+  opacity: 0.3;
+}
+
+
+.container:hover .text {
+  opacity: 1;
+}  
+*/
+/* ---------- Fin fond opaque + texte au mileu ----------- */
+
+/* ---------- overlay en bas texte ---------- */
+/* 
+ .img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute; 
+    bottom: 0; 
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1; 
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 30px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }  
+*/
+
+/* ---------- Fin overlay en bas texte ---------- */
+  
+/* ---------- Zoom du milieu de l'image ---------- */  
+
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.5);  
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    transform: scale(0);
+    transition: .3s ease;
+  }
+  
+  .container:hover .overlay {
+
+    transform: scale(1);
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+/* ---------- Fin Zoom du milieu de l'image ---------- */
+
+/* ---------- overlay slide du haut vers le bas ---------- */
+/* 
+  .overlay {
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0; 
+    width: 100%;
+    height:0;
+    background-color: #008CBA;
+    overflow: hidden; 
+    transition: .5s ease;
+  }
+  
+  .container:hover .overlay {
+    height: 100%;
+  
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+*/
+
+/* ---------- Fin overlay slide du haut vers le bas ---------- */
+
+
+/* ---------- Toute l'image devient bleue ---------- */
+/* 
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+  }
+    
+  .text {
+    opacity: 0;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+
+  .container:hover .overlay {
+    opacity: 1;
+  }
+
+  .container:hover .text {
+    opacity: 1;
+  } 
+*/
+
+/* ---------- Fin Toute l'image devient bleue ---------- */
+    

@@ -1,0 +1,41 @@
+h1 {
+    text-align: center;
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+.block {
+    background: rgb(212, 69, 17);
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    border: 1px solid black;
+}
+
+.in-line {
+    background: rgb(0, 255, 0);
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    display: inline;
+}
+
+.inline-block {
+    background: rgb(0, 81, 255);
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    display: inline-block;
+}
+  
+p {
+    width: 250px;
+    background: teal;
+}
+
+span {
+    background: orangered;
+    display: block;
+    height: 50px;
+    width: 50px;
+}

@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+/* général */
+
+html, body {
+    font-family: 'Raleway', sans-serif;
+}
+.flexCentre {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flexAround {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flexBetween {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.flexColumnCentre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexColumnAround {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.flexColumnBetween {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.decorationNone {
+    text-decoration: none;
+}
+
+.bordureNone {
+    border: none;
+}
+
+/* ---------- Barre de recherche ---------- */
+
+.texteGras {
+    font-weight: bold;
+}
+
+/* ---------- Fin Barre de recherche ---------- */
+
+/* ---------- Couleur réutilisable ---------- */
+
+.colorBleu {
+    color: #0065fc;
+}
+.colorBleuClair {
+    color: #deebff;
+}
+.colorGris {
+    color: #f2f2f2;
+}
+.backBleu {
+    background-color: #0065fc;
+}
+.backBleuClair {
+    background-color: #deebff;
+}
+.backGris {
+    background-color: #f2f2f2;
+}
+/* ---------- Fin Couleur réutilisable ---------- */
+
+/* ---------- NAV ---------- */
+.sizeNav {
+    height: 100px;
+}
+.sizeLiens {
+    width: 45%;
+}
+
+.sizeLien {
+    width: 140px;
+    height: 99px;
+}
+
+.colorLien2 {
+    color: black;
+}
+
+.bordureNav23 {
+    border-top: 1px solid transparent;
+}
+
+.bordureNav {
+    border-top: 1px solid blue;
+}
+
+.marglogo {
+    margin-bottom: 7px;
+}
+/* ---------- Fin NAV ---------- */
+
+/* ---------- Header ---------- */
+
+.bordureSearch {
+    width: 400px;
+    border-radius: 10px;
+    border: 0.5px solid #f2f2f2;
+}
+
+.iconSize {
+    height: 50px;
+    width: 50px;
+    border-radius: 10px 0 0 10px ;
+}
+
+.paddingSearch {
+    padding-left: 20px;
+}
+
+.recherche {
+    height: 50px;
+    width: 230px;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+}
+
+.buttonSearch {
+    height: 50px;
+    width: 120px;
+    color: white;
+    cursor: pointer;
+    border-radius: 0 10px 10px 0;
+}
+
+/* ---------- Fin Header ---------- */
+
+/* ---------- Filtre ---------- */
+
+.margFiltre {
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.filtre {
+    display: flex;
+    align-items: center;
+}
+
+.margFiltreTitre {
+    margin-right: 20px;
+}
+
+.filtreTexteIcons {
+    border: 2px solid #f2f2f2;
+    height: 50px;
+    border-radius: 30px;
+    margin-right: 20px;
+}
+
+.filtreTexteIcons:hover > .filtreTexte {
+    color: #0065fc;
+}
+
+.filtreTexteIcons:hover > .filtreIcons {
+    color: white;
+    background-color: #0065fc;
+}
+
+.filtreTexte {
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 0 25px 25px 0 ;
+}
+
+.filtreIcons {
+    margin-left: -2px;
+    border-radius: 25px;
+    width: 52px;
+    height: 52px;
+    color: #0065fc;
+    background-color: #deebff;
+}
+/* ---------- Fin Filtre ---------- */
+
+/* ---------- info ---------- */
+
+.info {
+    display: flex;
+    align-items: center;
+}
+
+/* crée le cercle autour de l'icon*/
+.parentIcon {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #f2f2f2;
+    border-radius: 25px;
+    margin-right: 5px;
+}
+/* ---------- Fin info ---------- */
+
+/* ---------- Hebergements ---------- */
+.sizeHebergements {
+    flex: 2;
+    height: 650px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.sizePopulaires {
+    flex: 1;
+    height: 650px;
+    margin-left: 20px;
+    border-radius: 10px;
+
+}
+
+.blocHebergements {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.bloc1 {
+    margin-bottom: 10px;
+}
+
+.bloc2 {
+    margin-top: 10px;
+}
+
+.cubeHebergements {
+    width: 30%;
+    height: auto;
+    background-color: white;
+    padding: 1%;
+    border-radius: 20px;
+}
+
+.cubeDetailsHebergements {
+    width: 90%;
+}
+
+.imgHebergements1 {
+    background-image: url(assets/apartment-406901_1920.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+}
+
+.imgHebergements2 {
+    background-image: url(assets/bedroom-1285156_1920.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+}
+
+.imgHebergements3 {
+    background-image: url(assets/gray-street-617250_1920.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+}
+
+.imgHebergements4 {
+    background-image: url(assets/hotel-1209021_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+}
+.imgHebergements5 {
+    background-image: url(assets/hotel-1979406_1920.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+}
+.imgHebergements6 {
+    background-image: url(assets/lake-1679708_1920.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+}
+/* ---------- Fin Hebergements ---------- */
+
+/* ---------- Populaires ---------- */
+
+.blocPopulaires {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.blocPopulaires12 {
+    margin-bottom: 22px; 
+}
+
+.cubePopulaires {
+    background-color: white;
+    height: auto;
+    padding: 1% 0 1% 1%;
+    border-radius: 20px;
+}
+
+.cubeDetailsPopulaires {
+    width: 60%;
+    padding-left: 5%;
+}
+
+.imgPopulaires1 {
+    background-image: url(assets/lake-1679708_1920.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 35%;
+    height: 160px;
+    border-radius: 15px 0 0 15px;
+}
+.imgPopulaires2 {
+    background-image: url(assets/tree-247122_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 35%;
+    height: 160px;
+    border-radius: 15px 0 0 15px;
+}
+.imgPopulaires3 {
+    background-image: url(assets/travel-1677347_1920.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 35%;
+    height: 160px;
+    border-radius: 15px 0 0 15px;
+}
+
+/* ---------- Fin Populaires ---------- */
