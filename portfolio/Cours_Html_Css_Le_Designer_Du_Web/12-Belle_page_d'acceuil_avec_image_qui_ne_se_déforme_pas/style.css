@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 17px;
+    color: #926239;
+    line-height: 1.6;
+}
+
+#showCase {
+    background-image: url(assets/pexels-adrianna-calvo-17727.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+}
+
+#showCase h1 {
+    font-size: 50px;
+}
+#showCase p {
+    font-size: 20px;
+}
+#showCase .button {
+    font-size: 18px;
+    text-decoration: none;
+    color: #926239;
+    border: 1px solid #926239;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+#showCase .button:hover {
+    background-color: #926239;
+    color: #fff;
+}

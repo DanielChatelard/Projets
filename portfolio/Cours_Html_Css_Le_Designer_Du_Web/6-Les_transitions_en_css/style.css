@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .box {
+    background-color: teal;
+    height: 100px;
+    width: 100px;
+    line-height: 100px;
+    text-align: center;
+    color: white;
+    font-size: 17px;
+    border-radius: 20px;
+  }
+  
+  .animated {
+    transition-property: background-color, border-radius, transform;
+    transition-duration: 2s, 2s, 2s;
+    transition-timing-function: cubic-bezier(.16,.93,.88,.28);
+  }
+  
+  .box:hover {
+    background: orangered;
+    border-radius: 50%;
+    transform: rotate(720deg);
+  }
+  

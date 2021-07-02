@@ -1,0 +1,81 @@
+body {
+    font-family: 'Londrina Solid', sans-serif;
+    font-size: 2rem;
+    letter-spacing: 2px;
+    display: grid;
+    grid: auto / 1fr minmax(250px, 500px) 1fr;
+    text-align: center;
+}
+
+div {
+    grid-column: 2 / 3;
+}
+
+p { 
+    margin: 0; 
+}
+
+div {
+    height: 80vh;
+    margin: 10vh 0;
+    border: 5px solid;
+}
+.h {
+    position: relative;
+}
+/* ---------- 1er façon de centrer ---------- */
+/* .table {
+    display: table;
+}
+
+.table p {
+    display: table-cell;
+    vertical-align: middle;
+} */
+/* ---------- Fin 1er façon de centrer ---------- */
+
+/* ---------- 2ème façon de centrer avec absolute ---------- */
+/* 
+.table {
+    position: relative;
+}
+
+.table p {
+    position: absolute;/* prend référence sur la position relative qui est son parent direct qui à une position relative, s'il n'y a pas de parent relative, il va prendre comme référence le body. *//*
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+}*/
+/* ---------- Fin 2ème façon de centrer avec absolute ---------- */
+
+
+/* ---------- 3ème façon de centrer avec FlexBox ---------- */
+
+/* .table {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+/* ---------- Fin 3ème façon de centrer avec FlexBox ---------- */
+
+/* ---------- 4ème façon de centrer avec CSS grid ---------- */
+/* 
+.table {
+    display: grid;
+    place-items: center;
+} */
+/* ---------- Fin 4ème façon de centrer avec CSS grid ---------- */
+
+
+/* ---------- 5ème façon de centrer avec Margins ---------- */
+
+.table {
+    display: flex;/* ou display: grid; */
+}
+  
+.table p {
+    margin: auto;
+} 
+/* ---------- Fin 5ème façon de centrer avec Margins ---------- */
+
+          
