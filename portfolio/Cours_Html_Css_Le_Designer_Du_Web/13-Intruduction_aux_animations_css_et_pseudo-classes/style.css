@@ -1,0 +1,33 @@
+
+/* ---------- pseudo-classe Hover ---------- */
+h1:hover {
+    background: orange;
+}
+
+button:hover {
+    color: red;
+}
+/* ---------- Fin pseudo-classe Hover ---------- */
+
+/* ---------- pseudo-classe Focus ---------- */
+
+input:focus {
+    background-color: teal;
+}
+
+button:focus {
+    background-color: yellow;
+}
+/* ---------- Fin pseudo-classe Focus ---------- */
+
+/* ---------- pseudo-classe Active, lorsque la souris recte enfoncée ---------- */
+
+button:active {
+    font-size: 50px;
+    background: pink;
+}
+
+h1:active, p:active {
+    color: aqua;
+}
+/* ---------- Fin pseudo-classe Active ---------- */

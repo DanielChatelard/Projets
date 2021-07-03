@@ -1,0 +1,30 @@
+#parent {
+    height: 45vh;
+    width: 65vw;
+    background: teal;
+    margin: auto;/* pour centrer */
+    position: relative;
+}
+
+#abs {
+    background: orangered;
+    position: absolute;/* retirer du flow de la div #parent et recherche le premier élément parent qui aura la position relative, s'il n'en trouve pas il sera relative au body */
+    top: 0;
+    left: 25%;
+    bottom: 0;
+    right: 25%;
+}/* position relative reste dans le flow */
+
+#abs1 {
+    background: orangered;
+    position: absolute;/* retirer du flow de la div #parent et recherche le premier élément parent qui aura la position relative, s'il n'en trouve pas il sera relative au body */
+    height: 80px;
+    width: 80px;
+    z-index: 5;
+}
+
+/* position relative reste dans le flow, permet d'utiliser z-index */
+p {
+    position: relative;
+    z-index: 6;/* permet de mettre un élément au dessus d'un autre, celui qui aura le chiffre le plus bas sera en dessous */
+}
