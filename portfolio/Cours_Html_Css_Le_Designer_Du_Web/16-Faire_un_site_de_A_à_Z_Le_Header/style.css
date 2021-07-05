@@ -32,9 +32,8 @@ a {
 a:hover {
 	opacity: 1;
 }
-/*------------- Fin General -------------*/
 
-a.btn{
+a.btn {
 	color: #fff;
 	border-radius: 4px;
 	text-transform: uppercase;
@@ -43,7 +42,7 @@ a.btn{
 	text-align: center;
 }
 
-hr{
+hr {
 	width: 150px;
 	height: 2px;
 	background-color: #2196F3;
@@ -51,33 +50,29 @@ hr{
 	margin-bottom: 80px;
 }
 
-section{
+section {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-
 	padding: 125px 100px;
 }
 
 @media (max-width: 1000px){
-
-	section{
+	section {
 		padding: 100px 50px;
 	}
 
 }
 
 @media (max-width: 600px){
-
-	section{
+	section {
 		padding: 80px 30px;
 	}
 
 }
 
-
-
-section h3.title{
+/*------------- Bloc Some Of Our Work 18 -------------*/
+section h3.title {
 	color: #414a4f;
 	text-transform: capitalize; 
 	font: bold 32px 'Open Sans', sans-serif;
@@ -85,7 +80,7 @@ section h3.title{
 	text-align: center;
 }
 
-section p{
+section p {
 	max-width: 800px;
 	text-align: center;
 	margin-bottom: 35px;
@@ -93,13 +88,14 @@ section p{
 	line-height: 2;
 }
 
-ul.grid{
+ul.grid {
 	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 }
-
+/*------------- Bloc Some Of Our Work 18 -------------*/
+/*------------- Fin General -------------*/
 
 /*-------------	Header 16 -------------*/
 
@@ -146,11 +142,9 @@ header nav li {
 /*-------------	Header 16 -------------*/
 
 
-/*----------------
- 	Hero Section
-----------------*/
+/*---------------- Page d'acceuil 17 ----------------*/
 
-.hero{
+.hero {
 	position: relative;
 	justify-content: center;
 	min-height: 100vh;
@@ -158,7 +152,7 @@ header nav li {
 	text-align: center;
 }
 
-.hero .background-image{
+.hero .background-image {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -169,48 +163,44 @@ header nav li {
 	z-index: -1;
 }
 
-
-.hero h1{
+.hero h1 {
 	font: bold 60px 'Open Sans', sans-serif;
 	margin-bottom: 15px;
 }
 
-.hero h3{
+.hero h3 {
 	font: normal 28px 'Open Sans', sans-serif;
 	margin-bottom: 40px;
 }
 
-.hero a.btn{
+.hero a.btn {
 	padding: 20px 46px;
 }
 
 @media (max-width: 800px){
-
-	.hero{
+	.hero {
 		min-height: 600px;
 	}
 
-	.hero h1{
+	.hero h1 {
 		font-size: 48px;
 	}
 
-	.hero h3{
+	.hero h3 {
 		font-size: 24px;
 	}
 
-	.hero a.btn{
+	.hero a.btn {
 		padding: 15px 40px;
 	}
 
 }
+/*---------------- Fin de la Page d'acceuil 17 ----------------*/
 
 
+/*-------------------- Our Work Section 18 ---------------------*/
 
-/*--------------------
- 	Our Work Section
----------------------*/
-
-.оur-work{
+.оur-work {
 	background-color: #fff;
 }
 
@@ -225,24 +215,23 @@ header nav li {
 	background-color: #333;
 }
 
-.our-work .grid li.small{
+.our-work .grid li.small {
 	flex-basis: 40%;
 }
 
-.our-work .grid li.large{
+.our-work .grid li.large {
 	flex-basis: 60%;
 }
 
 
-@media (max-width: 1000px){
-
+@media (max-width: 1000px) {
 	.our-work .grid li.small,
 	.our-work .grid li.large{
 		flex-basis: 100%;
 	}
 
 }
-
+/*-------------------- Our Work Section 18 ---------------------*/
 
 
 /*----------------------
